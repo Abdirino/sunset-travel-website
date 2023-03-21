@@ -1,0 +1,19 @@
+.about-container{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+.about-container h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    font-family: 'Pattaya', sans-serif;
+}
+.about-container p{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+@media  screen and (max-width:868px) {
+    .about-container{
+        margin: 4rem 2rem;
+    }
+}

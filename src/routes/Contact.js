@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HeroContact from "../images/Sunset-contact.jpg"
+import Footer from "../components/Footer";
 
 function Contact () {
     return(
@@ -11,6 +12,8 @@ function Contact () {
         heroImage={HeroContact}
         title="Contact Us"
       />
+
+      <Footer />
     </>
     )
 }
