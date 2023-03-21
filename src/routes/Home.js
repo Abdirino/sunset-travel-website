@@ -1,6 +1,7 @@
 import Destination from "../components/Destination";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Trip from "../components/Trip";
 import HeroIMG from "../images/Sunset-Home.jpg";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         btnClass="show"
       />
       <Destination />
+      <Trip />
     </>
   );
 }
