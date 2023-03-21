@@ -5,7 +5,7 @@ function AboutUs() {
     <div className="about-container">
       <h1>Our History</h1>
       <p>
-        Sunset Travel Agency was founded in 1995 by John and Jane Doe, a husband
+        Golden Sunset was founded in 1995 by John and Jane Doe, a husband
         and wife team who had a passion for travel and helping others explore
         the world. They started the company in their small apartment, offering
         personalized travel planning services to a small group of clients. As
@@ -18,7 +18,7 @@ function AboutUs() {
 
       <h1>Our Mission</h1>
       <p>
-        At Sunset Travel Agency, our mission is to provide personalized travel
+        At Golden Sunset, our mission is to provide personalized travel
         experiences that exceed our clients' expectations. We believe that
         travel is not just about visiting new places, but also about connecting
         with new cultures, creating unforgettable memories, and expanding one's
@@ -27,7 +27,7 @@ function AboutUs() {
 
       <h1>Our Vision</h1>
       <p>
-        Our vision at Sunset Travel Agency is to be the leading provider of
+        Our vision at Golden Sunset is to be the leading provider of
         personalized and sustainable travel experiences that inspire and enrich
         the lives of our clients. We aspire to be recognized globally for our
         commitment to creating unforgettable travel experiences that promote

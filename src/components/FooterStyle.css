@@ -11,12 +11,14 @@
     flex-wrap: wrap;
 }
 .top h1{
+    font-size: 2rem;
     font-family: 'Pattaya', sans-serif;
 }
 .top i{
     color: #fff;
     font-size: 2rem;
     margin-left: 1rem;
+    transform: 0.4s ease;
 }
 .top i:hover{
     color: aquamarine;
@@ -44,6 +46,10 @@
     color: #fafafa;
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
+    transform: 0.4s ease;
+}
+.bottom a:hover{
+    color: aquamarine;
 }
 
 @media screen and (max-width: 868px){
