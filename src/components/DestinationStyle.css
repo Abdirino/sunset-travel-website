@@ -59,6 +59,7 @@
     .first-D-reverse{
         display: flex;
         align-items: center;
+        flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
     .dis-text{
