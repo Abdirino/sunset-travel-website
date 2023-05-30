@@ -28,7 +28,7 @@ const Destination = () => {
       <DestinationData
         className="first-D-reverse"
         heading="Sydney Opera House, Australia"
-        text="The Sydney Opera House, built in Australia’s biggest city, is famous for its roof’s architecture resembling shells or sails. The opera house was designed by Jørn Utzon from Denmark and it was built between 1959 and 1973.The roof is covered with more than 1 million roof tiles. These were manufactured in Sweden. The opera house has several performance halls and theatre and exhibition spaces."
+        text="The Sydney Opera House, built in Australia’s biggest city, is famous for its roof’s architecture resembling shells or sails. The opera house was designed by Jørn Utzon from Denmark and it was built between 1959 and 1973. The opera house has several performance halls and theatre and exhibition spaces."
         img1={sydney1}
         img2={sydney2}
       />

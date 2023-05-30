@@ -52,6 +52,19 @@
     color: aquamarine;
 }
 
+.copy-write{
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(43, 43, 43);
+}
+.copy-write p{
+    font-size: 16px;
+    color: aquamarine;
+}
+
 @media screen and (max-width: 868px){
     .footer{
         padding: 4rem 2rem;

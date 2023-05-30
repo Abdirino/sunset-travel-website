@@ -1,6 +1,7 @@
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Hero2 from "../components/Hero2/Hero2";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
 import HeroIMG from "../images/Sunset-Home.jpg";
@@ -20,6 +21,7 @@ function Home() {
       />
       <Destination />
       <Trip />
+      <Hero2 />
       <Footer />
     </>
   );
