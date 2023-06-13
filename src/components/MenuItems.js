@@ -18,14 +18,20 @@ export const MenuItems = [
         icon : "fa-solid fa-briefcase"
     },
     {
+        title : "Blog",
+        url : "/blog",
+        cName : "nav-links",
+        icon : "fa-brands fa-blogger-b"
+    },
+    {
         title : "Contact",
         url : "/contact",
         cName : "nav-links",
         icon : "fa-solid fa-address-book"
     },
-    {
-        title : "Sign Up",
-        url : "/signup",
-        cName : "nav-links-mobile",
-    },
+    // {
+    //     title : "Sign Up",
+    //     url : "/signup",
+    //     cName : "nav-links-mobile",
+    // },
 ]
