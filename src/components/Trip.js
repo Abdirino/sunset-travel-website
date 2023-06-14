@@ -47,7 +47,7 @@ function Trip() {
   return (
     <div className="trips">
       <div className="trip">
-        <h1>Recent Trips</h1>
+        <h1>Recent Tours</h1>
         <p>Showing you the world, one country at a time</p>
 
         <div className="trip-card">
