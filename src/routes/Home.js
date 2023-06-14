@@ -1,3 +1,4 @@
+import DSearch from "../components/DSearch/DSearch";
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -18,6 +19,7 @@ function Home() {
         url="/"
         btnClass="show"
       />
+      <DSearch />
       <Destination />
       <Trip />
       <Footer />
