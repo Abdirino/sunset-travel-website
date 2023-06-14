@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import NewsLetter from "../components/NewsLetter/NewsLetter";
+import Reviews from "../components/Reviews/Reviews";
 import Trip from "../components/Trip";
 import HeroIMG from "../images/Sunset-Home.jpg";
 
@@ -23,6 +24,7 @@ function Home() {
       <DSearch />
       <Destination />
       <Trip />
+      <Reviews />
       <NewsLetter />
       <Footer />
     </>
