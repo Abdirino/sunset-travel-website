@@ -1,0 +1,31 @@
+.news{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(5, 86, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.news h1{
+    padding: 10px;
+    font-size: 33px;
+    color: white;
+}
+.news p{
+    padding: 7px;
+    font-size: 20px;
+    color: white;
+}
+.news input{
+    padding: 16px 48px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+}
+.news button{
+    padding: 20px 40px;
+    margin: 8px;
+    display: block !important;
+}
