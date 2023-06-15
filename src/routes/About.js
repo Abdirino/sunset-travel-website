@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import AboutHero from "../images/Sunset-About.jpg";
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
+import AIcons from "../components/AboutIcons/AIcons";
 
 function About() {
   return (
@@ -11,9 +12,10 @@ function About() {
       <Hero
         cName="hero-mid"
         heroImage={AboutHero}
-        title="About Us"
+        title="Everything About Us"
       />
       <AboutUs />
+      <AIcons />
       <Footer />
     </>
   );

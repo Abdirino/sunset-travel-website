@@ -82,7 +82,7 @@ function Trip() {
             <div>
               <TripData
                 image={india}
-                heading="India"
+                heading="Japan"
                 price="$1600"
                 text="India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area and the second-most populous country. Known for her rich culture and tasty food."
                 book="Book Now!"
@@ -100,7 +100,7 @@ function Trip() {
             <div>
               <TripData
                 image={france}
-                heading="France"
+                heading="Sweden"
                 price="$900"
                 text="France, in Western Europe, encompasses alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower."
                 book="Book Now!"
