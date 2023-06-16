@@ -4,16 +4,18 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    text-align: start;
 }
 .t-details .t-name{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 25px 0;
 }
 .t-name h1{
     font-size: 36px;
     border-bottom: 2px solid rgb(7, 180, 145);
+    font-weight: bold;
 }
 .t-name h2{
     color: rgb(15, 182, 140);
