@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./TripStyle.css";
 
 function TripData(props) {
@@ -10,7 +11,9 @@ function TripData(props) {
         <h3>{props.heading}</h3>
         <h4>{props.price}</h4>
         <p>{props.text}</p>
-      <button>{props.book}</button>
+        <Link to='/tourDetails' style={{ textDecoration: 'none' }}>
+          <button>{props.book}</button>
+        </Link>
       </div>
     </>
   );
