@@ -10,7 +10,7 @@ const Reviews = () => {
     dots: true,
     infinite: true,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
@@ -20,7 +20,7 @@ const Reviews = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -29,7 +29,7 @@ const Reviews = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -59,9 +59,7 @@ const Reviews = () => {
             <p>
               I cannot speak highly enough about our 3 week trip to this place
               and the services provided by this travel company. Everything was
-              seamless. The private guides were interesting and knowledgable. We
-              felt that they were more than just guides. It was like we had a
-              friend in each city.
+              seamless. The private guides were interesting and knowledgable.
             </p>
             <div className="person">
               <div className="p-image">
@@ -71,7 +69,7 @@ const Reviews = () => {
             </div>
           </div>
           <div className="review">
-            <h2>Miami Beaches</h2>
+            <h2>Colorful India</h2>
             <div className="stars">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -82,9 +80,7 @@ const Reviews = () => {
             <p>
               I cannot speak highly enough about our 3 week trip to this place
               and the services provided by this travel company. Everything was
-              seamless. The private guides were interesting and knowledgable. We
-              felt that they were more than just guides. It was like we had a
-              friend in each city.
+              seamless. The private guides were interesting and knowledgable.
             </p>
             <div className="person">
               <div className="p-image">
@@ -94,7 +90,7 @@ const Reviews = () => {
             </div>
           </div>
           <div className="review">
-            <h2>Miami Beaches</h2>
+            <h2>Yangshuo Mist</h2>
             <div className="stars">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -105,9 +101,7 @@ const Reviews = () => {
             <p>
               I cannot speak highly enough about our 3 week trip to this place
               and the services provided by this travel company. Everything was
-              seamless. The private guides were interesting and knowledgable. We
-              felt that they were more than just guides. It was like we had a
-              friend in each city.
+              seamless. The private guides were interesting and knowledgable.
             </p>
             <div className="person">
               <div className="p-image">
@@ -117,7 +111,7 @@ const Reviews = () => {
             </div>
           </div>
           <div className="review">
-            <h2>Miami Beaches</h2>
+            <h2>Amazon Forest</h2>
             <div className="stars">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -128,9 +122,7 @@ const Reviews = () => {
             <p>
               I cannot speak highly enough about our 3 week trip to this place
               and the services provided by this travel company. Everything was
-              seamless. The private guides were interesting and knowledgable. We
-              felt that they were more than just guides. It was like we had a
-              friend in each city.
+              seamless. The private guides were interesting and knowledgable.
             </p>
             <div className="person">
               <div className="p-image">

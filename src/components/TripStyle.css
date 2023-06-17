@@ -1,5 +1,6 @@
 .trip{
     margin: 4rem 1.5rem;
+    overflow: hidden;
 }
 .trip h1{
     font-size: 3rem;
@@ -8,11 +9,11 @@
 .t-card{
     /* width: 32%; */
     text-align: start;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) ;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4) ;
     border-radius: 7px;
     cursor: pointer;
-    padding: 1rem 1.2rem;
-    margin: 12px;
+    padding: 1rem;
+    margin: 7px;
 }
 .t-image{
     height: 240px;
