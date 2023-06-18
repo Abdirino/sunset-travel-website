@@ -56,9 +56,12 @@
 }
 .next-prev i{
     padding: 10px 15px;
-    background: rgb(0, 200, 255);
+    background: rgb(8, 170, 140);
     cursor: pointer;
     border-radius: 5px;
+}
+.next-prev i:hover{
+    background: rgb(4, 182, 123);
 }
 .next-prev p{
     cursor: pointer;

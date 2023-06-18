@@ -13,13 +13,13 @@
     padding: 25px 0;
 }
 .t-name h1{
-    font-size: 36px;
+    font-size: 40px;
     border-bottom: 2px solid rgb(7, 180, 145);
     font-weight: bold;
 }
 .t-name h2{
     color: rgb(15, 182, 140);
-    font-size: 33px;
+    font-size: 36px;
 }
 .t-name h2 span{
     color: rgb(96, 94, 94);
