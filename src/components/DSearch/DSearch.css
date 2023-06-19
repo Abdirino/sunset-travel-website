@@ -7,10 +7,12 @@
     flex-direction: row;
 }
 .d-search input{
-    padding: 14px 60px;
+    height: 3.5rem;
+    font-size: 19px;
+    padding: 0 1rem;
     border: 0.5px solid grey;
-    font-size: 18px;
-    margin: 6px 0;
+    margin: 6px;
+    border-radius: 8px;
 }
 .d-search .s-btn{
     padding: 18px 30px;
