@@ -9,7 +9,7 @@ function ContactForm() {
           <div className="c-img">
             <img src={ContactImg} alt="" />
           </div>
-          {/* <div className="c-details">
+          <div className="c-details">
             <div className="detail">
               <h2>Paris Office</h2>
               <p>198 West 21th Street</p>
@@ -17,14 +17,7 @@ function ContactForm() {
               <p>Phone: +88 (0) 101 0000 000</p>
               <p>Email: goldenSunset@qode.com</p>
             </div>
-            <div className="detail">
-              <h2>Istanbul Office</h2>
-              <p>198 West 21th Street</p>
-              <p>New York NY 10010</p>
-              <p>Phone: +88 (0) 101 0000 000</p>
-              <p>Email: goldenSunset@qode.com</p>
-            </div>
-          </div> */}
+          </div>
         </div>
         <form>
           <h1>Message Us!</h1>

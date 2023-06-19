@@ -12,12 +12,12 @@ const TourDetails = () => {
       <Hero
         cName="hero-mid"
         heroImage={TourDetailsIMG}
-        title="City Selfie Tour"
+        title="City Tour"
       />
       <div className="tour-details">
         <div className="t-details">
           <div className="t-name">
-            <h1>City Selfie Tour</h1>
+            <h1>City Tour</h1>
             <h2>
               $850 <span>/ Per Person</span>
             </h2>

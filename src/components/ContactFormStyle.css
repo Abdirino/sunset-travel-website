@@ -14,13 +14,13 @@
     flex: 1 1 450px;
 }
 .form-container form input{
-    height: 3.5rem;
+    height: 3rem;
     font-size: 20px;
     padding: 0 1rem;
     margin-bottom: 2rem;
     border-radius: 0.4rem;
     border: none;
-    background: rgba(0, 118, 90, 0.2);
+    background: rgba(0, 56, 43, 0.12);
     color: white;
 }
 .form-container textarea{
@@ -29,7 +29,7 @@
     border-radius: 0.4rem;
     font-size: 20px;
     border: none;
-    background: rgba(0, 118, 90, 0.2);
+    background: rgba(0, 71, 54, 0.12);
     color: white;
 }
 .form-container button{
@@ -46,7 +46,6 @@
 }
 .formDetails .c-details{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .c-details .detail{

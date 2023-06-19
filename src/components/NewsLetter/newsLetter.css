@@ -23,6 +23,7 @@
     font-size: 18px;
     margin: 10px;
     border: none;
+    border-radius: 8px;
 }
 .news button{
     padding: 20px 40px;
