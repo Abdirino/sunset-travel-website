@@ -1,25 +1,33 @@
 .tour-details{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     text-align: start;
 }
+.t-details{
+    display: flex;
+    gap: 1.2rem;
+}
+.t-details .t-detail{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 450px;
+}
 .t-details .t-name{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 15px;
     padding: 25px 0;
 }
 .t-name h1{
-    font-size: 40px;
-    border-bottom: 2px solid rgb(7, 180, 145);
+    font-size: 37px;
     font-weight: bold;
 }
 .t-name h2{
     color: rgb(15, 182, 140);
-    font-size: 36px;
+    font-size: 33px;
 }
 .t-name h2 span{
     color: rgb(96, 94, 94);
@@ -27,4 +35,10 @@
 }
 .t-details p{
     font-size: 20px;
+}
+
+.t-details .t-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 450px;
 }

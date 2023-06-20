@@ -6,7 +6,7 @@ const DSearch = () => {
     <>
         <div className="d-search">
             <input type="text" placeholder='Where to?' />
-            <input type="text" placeholder='Month?' />
+            <input type="date" placeholder='Month?' />
             <input type="text" placeholder='Trip type?' />
             <button className='s-btn'>Search</button>
         </div>
