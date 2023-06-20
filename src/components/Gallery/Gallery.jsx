@@ -3,7 +3,13 @@ import './Gallery.css'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <>
+      <div className="gallery">
+        <div className="g-img"></div>
+        <div className="g-img"></div>
+        <div className="g-img"></div>
+      </div>
+    </>
   )
 }
 

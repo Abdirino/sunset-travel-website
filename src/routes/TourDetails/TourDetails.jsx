@@ -30,7 +30,11 @@ const TourDetails = () => {
               himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus
               condimentum sit amet a augue. Sed non neque elit
             </p>
-            <div className="t-date"></div>
+            <div className="t-date">
+              <p>Age: 12+</p>
+              <p>Days: 6</p>
+              <p>On Budget</p>
+            </div>
           </div>
           <div className="t-form">
             <h3>Book This Tour</h3>

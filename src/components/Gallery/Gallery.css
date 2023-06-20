@@ -1,0 +1,5 @@
+.gallery{
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(200px, minmax(200px, 1fr));
+}

@@ -1,44 +1,85 @@
-.tour-details{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    text-align: start;
+.tour-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: start;
 }
-.t-details{
-    display: flex;
-    gap: 1.2rem;
+.t-details {
+  display: flex;
+  gap: 1.2rem;
 }
-.t-details .t-detail{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 450px;
+.t-details .t-detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 450px;
 }
-.t-details .t-name{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 25px 0;
+.t-details .t-name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 25px 0;
 }
-.t-name h1{
-    font-size: 37px;
-    font-weight: bold;
+.t-name h1 {
+  font-size: 37px;
+  font-weight: bold;
 }
-.t-name h2{
-    color: rgb(15, 182, 140);
-    font-size: 33px;
+.t-name h2 {
+  color: rgb(15, 182, 140);
+  font-size: 33px;
 }
-.t-name h2 span{
-    color: rgb(96, 94, 94);
-    font-size: 16px;
+.t-name h2 span {
+  color: rgb(96, 94, 94);
+  font-size: 16px;
 }
-.t-details p{
-    font-size: 20px;
+.t-details p {
+  font-size: 20px;
+}
+.t-date {
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.t-date p {
+  font-size: 17px;
 }
 
-.t-details .t-form{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 450px;
+.t-details .t-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 450px;
+  gap: 16px;
+}
+.t-form h3 {
+  font-size: 25px;
+}
+.t-form input {
+  height: 3rem;
+  padding: 0 1rem;
+  border: none;
+  background-color: rgba(0, 58, 39, 0.2);
+  border-radius: 8px;
+  font-size: 19px;
+}
+.t-form textarea {
+  padding: 1rem;
+  border: none;
+  background-color: rgba(0, 58, 39, 0.2);
+  border-radius: 8px;
+  font-size: 19px;
+}
+.t-form button {
+  padding: 1rem 0;
+  display: block !important;
+}
+
+@media (max-width: 990px) {
+  .t-details {
+    flex-wrap: wrap;
+  }
 }
