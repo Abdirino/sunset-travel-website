@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import TourDetailsIMG from "../../images/tourdetailsimg.jpg";
 import Footer from "../../components/Footer";
+import Gallery from "../../components/Gallery/Gallery";
 
 const TourDetails = () => {
   return (
@@ -35,6 +36,7 @@ const TourDetails = () => {
               <p>Days: 6</p>
               <p>On Budget</p>
             </div>
+            <Gallery />
           </div>
           <div className="t-form">
             <h3>Book This Tour</h3>
