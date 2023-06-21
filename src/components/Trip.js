@@ -4,27 +4,53 @@ import "./TripStyle.css";
 import egypt from "../images/Egypt.jpg";
 import france from "../images/France.jpg";
 import india from "../images/India.jpg";
-import Australia from '../images/Australia.jpg';
-import Sweden from '../images/Sweden.jpg';
-import Spain from '../images/Spain.jpg';
-import Germany from '../images/Germany.jpg';
-import USA from '../images/USA.jpg';
-import Brazil from '../images/Brazil.jpg';
+import Australia from "../images/Australia.jpg";
+import Sweden from "../images/Sweden.jpg";
+import Spain from "../images/Spain.jpg";
+import Germany from "../images/Germany.jpg";
+import USA from "../images/USA.jpg";
+import Brazil from "../images/Brazil.jpg";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    />
+  );
+}
+
 function Trip() {
   const settings = {
+    className: "center",
+    centerMode: true,
     dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
     autoplaySpeed: 2000,
-    // cssEase: "linear",
+    speed: 2200,
+    pauseOnHover: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

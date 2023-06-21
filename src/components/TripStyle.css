@@ -9,11 +9,11 @@
 .t-card{
     /* width: 32%; */
     text-align: start;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) ;
     border-radius: 7px;
     cursor: pointer;
     padding: 1rem;
-    margin: 7px;
+    margin: 5px;
 }
 .t-image{
     height: 240px;
