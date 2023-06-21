@@ -46,7 +46,7 @@ function Trip() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     speed: 2200,
     pauseOnHover: true,
     nextArrow: <SampleNextArrow />,

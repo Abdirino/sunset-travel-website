@@ -43,7 +43,7 @@ const TourDetails = () => {
             <input type="text" placeholder="Name" />
             <input type="email" placeholder="E-Mail" />
             <input type="number" placeholder="Phone" />
-            <input type="date" placeholder="dd-mm-yyyy" />
+            <input type="text" placeholder="dd-mm-yyyy" />
             <input type="text" placeholder="number of tickets" />
             <textarea name="" id="" cols="20" rows="10" placeholder="Message"></textarea>
             <button>Check Availability</button>
